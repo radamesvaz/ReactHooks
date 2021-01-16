@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Haciendo pruebas sobre el componente <MultipleCustomHooks /> debe de mostrar el componente correctamente  1`] = `
+<div>
+  <h1>
+    Multiples hooks
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading...
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente cita
+  </button>
+</div>
+`;
+
+exports[`Haciendo pruebas sobre el componente <MultipleCustomHooks /> debe de mostrar la información conseguida del useFetch  1`] = `
+<div>
+  <h1>
+    Multiples hooks
+  </h1>
+  <hr />
+  <blockquote
+    className="blockquote text-right"
+  >
+    <p
+      className="mb-0"
+    >
+       
+      Quiero irme de aquí
+       
+    </p>
+    <hr />
+    <footer
+      className="blockquote-footer"
+    >
+       
+      Radames
+       
+    </footer>
+  </blockquote>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente cita
+  </button>
+</div>
+`;
